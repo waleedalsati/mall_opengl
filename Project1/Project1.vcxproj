@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{479E0C06-333B-4DD8-9DE8-CEAE2C3759AA}</ProjectGuid>
+    <RootNamespace>Project1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>GLAUX.lib;GLU32.lib;glut.lib;OPENGL32.lib;glut32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3DTexture.cpp" />
+    <ClCompile Include="areas.cpp" />
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="houses.cpp" />
+    <ClCompile Include="Model_3DS.cpp" />
+    <ClCompile Include="point.cpp" />
+    <ClCompile Include="PrimitiveDrawer.cpp" />
+    <ClCompile Include="sky.cpp" />
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="texture.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\AppData\Local\Temp\Rar$DIa13352.37491\build1.bmp" />
+    <Image Include="a1.bmp" />
+    <Image Include="a2.bmp" />
+    <Image Include="a3.bmp" />
+    <Image Include="a4.bmp" />
+    <Image Include="a6.bmp" />
+    <Image Include="area1.bmp" />
+    <Image Include="area2.bmp" />
+    <Image Include="bark.bmp" />
+    <Image Include="bb8.bmp" />
+    <Image Include="block1.bmp" />
+    <Image Include="block2.bmp" />
+    <Image Include="build1.bmp" />
+    <Image Include="build3.bmp" />
+    <Image Include="Concrete.bmp" />
+    <Image Include="front1.bmp" />
+    <Image Include="grass.bmp" />
+    <Image Include="grasss.bmp" />
+    <Image Include="herb.bmp" />
+    <Image Include="house10.bmp" />
+    <Image Include="house2.bmp" />
+    <Image Include="img.bmp" />
+    <Image Include="img10.bmp" />
+    <Image Include="img11.bmp" />
+    <Image Include="img13.bmp" />
+    <Image Include="img14.bmp" />
+    <Image Include="istoana.bmp" />
+    <Image Include="kk1.bmp" />
+    <Image Include="kk10.bmp" />
+    <Image Include="kk2.bmp" />
+    <Image Include="land.bmp" />
+    <Image Include="mosala.bmp" />
+    <Image Include="photo.bmp" />
+    <Image Include="photo1.bmp" />
+    <Image Include="photo10.bmp" />
+    <Image Include="photo11.bmp" />
+    <Image Include="photo2.bmp" />
+    <Image Include="photo3.bmp" />
+    <Image Include="photo4.bmp" />
+    <Image Include="photo5.bmp" />
+    <Image Include="q.bmp" />
+    <Image Include="qp.bmp" />
+    <Image Include="qpp.bmp" />
+    <Image Include="qq.bmp" />
+    <Image Include="rock.bmp" />
+    <Image Include="skback.bmp" />
+    <Image Include="skfront.bmp" />
+    <Image Include="skleft.bmp" />
+    <Image Include="solid.bmp" />
+    <Image Include="strip.bmp" />
+    <Image Include="up.bmp" />
+    <Image Include="WoodTexture.bmp" />
+    <Image Include="wood_70D.bmp" />
+    <Image Include="yello.bmp" />
+    <Image Include="yello1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="3DTexture.h" />
+    <ClInclude Include="areas.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="houses.h" />
+    <ClInclude Include="Model_3DS.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="PrimitiveDrawer.h" />
+    <ClInclude Include="sky.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="air_museum_playground_4k.3DS" />
+    <None Include="bird.3DS" />
+    <None Include="chair2.3DS" />
+    <None Include="M_TREE5.3DS" />
+    <None Include="tank.3DS" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

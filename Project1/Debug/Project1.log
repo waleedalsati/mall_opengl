@@ -1,0 +1,57 @@
+﻿Build started 3/24/2026 12:26:15 PM.
+     1>Project "C:\Users\ASUS\Desktop\information\المشروع البيانيات للغروب 43\mall_opengl\Project1\Project1\Project1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt 3DTexture.cpp areas.cpp camera.cpp houses.cpp Model_3DS.cpp point.cpp PrimitiveDrawer.cpp sky.cpp Source.cpp texture.cpp
+         texture.cpp
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\texture.cpp(44): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Source.cpp
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\source.cpp(20): warning C4005: 'PI' : macro redefinition
+                 c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\camera.h(6) : see previous definition of 'PI'
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\source.cpp(1583): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         sky.cpp
+         PrimitiveDrawer.cpp
+         point.cpp
+         Model_3DS.cpp
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\model_3ds.cpp(160): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\model_3ds.cpp(182): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\model_3ds.cpp(212): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\model_3ds.cpp(891): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+         houses.cpp
+         camera.cpp
+         areas.cpp
+         3DTexture.cpp
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\3dtexture.cpp(61): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\3dtexture.cpp(61): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(241) : see declaration of 'strdup'
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\3dtexture.cpp(65): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(200) : see declaration of 'strtok'
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\3dtexture.cpp(77): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strlwr. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(250) : see declaration of 'strlwr'
+     1>c:\users\asus\desktop\information\المشروع البيانيات للغروب 43\mall_opengl\project1\project1\3dtexture.cpp(142): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ASUS\Desktop\information\المشروع البيانيات للغروب 43\mall_opengl\Project1\Debug\Project1.exe" /INCREMENTAL /NOLOGO GLAUX.lib GLU32.lib glut.lib OPENGL32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ASUS\Desktop\information\المشروع البيانيات للغروب 43\mall_opengl\Project1\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ASUS\Desktop\information\المشروع البيانيات للغروب 43\mall_opengl\Project1\Debug\Project1.lib" /MACHINE:X86 Debug\3DTexture.obj
+         Debug\areas.obj
+         Debug\camera.obj
+         Debug\houses.obj
+         Debug\Model_3DS.obj
+         Debug\point.obj
+         Debug\PrimitiveDrawer.obj
+         Debug\sky.obj
+         Debug\Source.obj
+         Debug\texture.obj
+         LINK : C:\Users\ASUS\Desktop\information\المشروع البيانيات للغروب 43\mall_opengl\Project1\Debug\Project1.exe not found or not built by the last incremental link; performing full link
+         Project1.vcxproj -> C:\Users\ASUS\Desktop\information\المشروع البيانيات للغروب 43\mall_opengl\Project1\Debug\Project1.exe
+     1>Done Building Project "C:\Users\ASUS\Desktop\information\المشروع البيانيات للغروب 43\mall_opengl\Project1\Project1\Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.79

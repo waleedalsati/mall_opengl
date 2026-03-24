@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{ecf083d1-a039-46e1-9d15-6c927e0207f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{febcd4ba-7bb6-4f9f-9491-7cc73fd4e3f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="houses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="areas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="3DTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model_3DS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sky.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PrimitiveDrawer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="build1.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="build3.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="Concrete.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="front1.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="img.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="mosala.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="photo5.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="photo.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="photo11.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="photo10.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="photo3.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="photo1.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="photo4.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="photo2.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="WoodTexture.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="rock.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="strip.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="up.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="solid.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="area1.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="yello.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="yello1.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="bark.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="istoana.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="grass.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="img10.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="img11.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="img13.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="q.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="img14.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="qq.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="herb.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="qp.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="qpp.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="grasss.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="area2.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="land.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="bb8.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="kk1.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="kk2.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="kk10.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="a1.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="a3.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="a4.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="block2.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="house2.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="house10.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="block1.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="a2.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="a6.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="wood_70D.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="skleft.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="skback.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="skfront.bmp">
+      <Filter>image</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\AppData\Local\Temp\Rar$DIa13352.37491\build1.bmp">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="houses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="areas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="3DTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model_3DS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PrimitiveDrawer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tank.3DS">
+      <Filter>models</Filter>
+    </None>
+    <None Include="M_TREE5.3DS">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="air_museum_playground_4k.3DS">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="bird.3DS">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="chair2.3DS">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
